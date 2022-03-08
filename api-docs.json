@@ -1,0 +1,109 @@
+{
+  "apiVersion": "1",
+  "swaggerVersion": "1.2",
+  "format": "json",
+  "apis": [
+	{
+		"path": "/apiinfo.{format}",
+		"description": "API Information"
+    },
+    {
+		"path": "/auth.{format}",
+		"description": "Authenticate user"
+    },
+    {
+		"path": "/bulkactions.{format}",
+		"description": "Actions that can be performed on multiple nodes"
+    },    
+    {
+		"path": "/categories.{format}",
+		"description": "Categories and Attributes"
+    },
+	{
+		"path": "/doctemplates.{format}",
+		"description": "Document Templates"
+    },
+    {
+		"path": "/documentproperties.{format}",
+		"description": "Document Properties Synchronization"
+    },    
+    {
+		"path": "/draftprocesses.{format}",
+		"description": "Manage draft processes"
+    },    
+	{
+		"path": "/facets.{format}",
+		"description": "Get facets"
+	},
+	{
+		"path": "/forms.{format}",
+		"description": "Use forms"
+	},
+	{
+		"path": "/members.{format}",
+		"description": "Manage members"
+    },
+	{
+		"path": "/nicknames.{format}",
+		"description": "Manage nicknames"
+    },
+    {
+		"path": "/nodes.{format}",
+		"description": "Manage nodes"
+    },
+	{
+		"path": "/notifications.{format}",
+		"description": "Notifications"
+    },
+	{
+		"path": "/permissions.{format}",
+		"description": "Permissions"
+	},
+	{
+		"path": "/ping.{format}",
+		"description": "Basic CS and REST API Information"
+	},
+	{
+		"path": "/processes.{format}",
+		"description": "Manage processes / workflows"
+	},
+	{
+		"path": "/search.{format}",
+		"description": "Search"
+	},
+	{
+		"path": "/serverinfo.{format}",
+		"description": "Content Server information"
+    },
+	{
+		"path": "/tabs.{format}",
+		"description": "Use tabs"
+	},
+	{
+		"path": "/tklattribute.{format}",
+		"description": "TKL Attribute"
+	},
+	{
+		"path": "/validation.{format}",
+		"description": "Validation"
+    },
+    {
+		"path": "/versions.{format}",
+		"description": "Manage versions"
+    },
+    {
+		"path": "/volumes.{format}",
+		"description": "Query volumes"
+    },
+	{
+		"path": "/webreports.{format}",
+		"description": "Manage WebReports"
+	},
+	{
+		"path": "/xmlimport.{format}",
+		"description": "XML Import"
+	}
+  ],
+  "info": {
+  }
+}
